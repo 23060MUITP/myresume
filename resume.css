@@ -1,0 +1,184 @@
+#head h1
+{
+    text-align: center;
+    font-weight: 300;
+}
+
+
+body
+{
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+}
+.name_container
+{
+    position: relative;
+    width: 1000%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background-color: rgb(155, 201, 241);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.name_container .left_side
+{
+    position: relative;
+    background-color: rgb(2, 75, 104);
+    padding: 10px;
+
+}
+.name_container .right_side
+{
+    position: relative;
+    background-color: rgb(150, 226, 231);
+    padding: 40px;
+    
+}
+.name_container .left_side .myimg
+{
+    position: relative;
+    left: 15%;
+    top: 4%;
+    width: fit-content;
+    border: 10px solid rgb(241, 237, 234);
+}
+.name_container .left_side hr
+{
+    display: block;
+    margin-top: 20%;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+      
+}
+.name_container .left_side h1
+{
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+.name_container .left_side h2
+{
+    color: rgb(235, 234, 230);
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    top: 3%;
+    font-weight: 300;
+}
+.name_container .left_side .contactinfo
+{
+    top: 5%;
+    position: relative;
+    color: aliceblue;
+}
+.name_container .left_side .contactinfo h3
+{
+    font-weight: 550;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    left: 5%;
+    margin-bottom: 20px;
+}
+.name_container .left_side .contactinfo ul
+{
+    position: relative;
+}
+.name_container .left_side .contactinfo ul li
+{
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.name_container .left_side .langinfo
+{
+    top: 9%;
+    position: relative;
+    color: aliceblue;
+}
+.name_container .left_side .langinfo h3
+{
+    font-weight: 550;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    left: 5%;
+    margin-bottom: 20px;
+}
+.name_container .left_side .langinfo ul
+{
+    position: relative;
+}
+.name_container .left_side .langinfo ul li
+{
+    position: relative;
+    margin-top: 5px;
+    cursor: pointer;
+    display: block;
+    font-weight: 500;
+}
+.name_container .right_side .about:last-child
+{
+    margin-bottom: 0;
+}
+.name_container .right_side .about .title2
+{
+    color: rgb(7, 57, 77);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.name_container .right_side .about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+.name_container .right_side .about .box .institution
+{
+    min-width: 150px;
+}
+.name_container .right_side .about .box .institution h5
+{
+    text-transform: uppercase;
+    color: rgb(30, 58, 53);
+    font-weight: 800;
+}
+.name_container .right_side .about .box .text h4
+{
+    text-transform: uppercase;
+    color: rgb(11, 173, 173);
+    font-size: 16px;
+}
+.name_container .right_side .about_interests ul
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.name_container .right_side .about_interests .title2
+{
+    color: rgb(7, 57, 77);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.name_container .right_side .about_interests ul li
+{
+    list-style: none;
+    font-weight: 400;
+    color: rgb(3, 39, 39);
+    margin-top: 40%;
+    min-height: 50px;
+    
+}
